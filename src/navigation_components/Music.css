@@ -1,0 +1,61 @@
+/* Container styling for Music playlists */
+.music-container {
+  padding: 20px;
+  background-color: #121212;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Grid layout for playlists */
+.playlists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Card styling for each playlist */
+.playlist-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  padding: 15px;
+}
+
+.playlist-card:hover {
+  background-color: #282828;
+}
+
+/* Styling for playlist image */
+.playlist-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Playlist title styling */
+.playlist-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  margin: 0;
+}
+
+/* Playlist description styling */
+.playlist-description {
+  font-size: 14px;
+  color: #b3b3b3;
+  line-height: 1.5;
+  cursor: pointer;
+  text-align: left;
+  margin: 0;
+}

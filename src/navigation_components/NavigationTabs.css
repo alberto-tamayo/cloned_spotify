@@ -1,0 +1,25 @@
+.navigation-tabs {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab.selected {
+    background-color: #1db954; 
+    color: #000;
+  }
+  
+  .tab:hover {
+    background-color: #444;
+  }
+  
