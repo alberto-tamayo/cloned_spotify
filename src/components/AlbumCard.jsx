@@ -17,4 +17,6 @@ const AlbumCard = ({ album, onAlbumClick }) => {
   );
 };
 
+//Put your css below
+
 export default AlbumCard;

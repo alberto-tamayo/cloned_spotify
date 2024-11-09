@@ -84,4 +84,6 @@ const StickyPlayer = ({ track, isPlaying, onPlayPause }) => {
   );
 };
 
+//Put your css below
+
 export default StickyPlayer;

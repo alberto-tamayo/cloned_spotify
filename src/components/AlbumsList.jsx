@@ -15,4 +15,6 @@ const AlbumsList = ({ albums, onAlbumClick }) => {
   );
 };
 
+//Put your css below
+
 export default AlbumsList;

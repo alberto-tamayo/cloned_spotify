@@ -88,5 +88,6 @@ const Navbar = ({ setAlbums, onSearch }) => {
     </nav>
   );
 };
+//Put your css below
 
 export default Navbar;

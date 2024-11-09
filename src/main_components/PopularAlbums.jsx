@@ -19,4 +19,6 @@ const PopularAlbums = ({ albums, onAlbumClick }) => (
   </div>
 );
 
+//Put your css below
+
 export default PopularAlbums;

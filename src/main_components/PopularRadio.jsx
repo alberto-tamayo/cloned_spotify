@@ -18,4 +18,6 @@ const PopularRadio = ({ radio, onRadioClick }) => (
   </div>
 );
 
+//Put your css below
+
 export default PopularRadio;

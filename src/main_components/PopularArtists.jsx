@@ -18,4 +18,6 @@ const PopularArtists = ({ artists, onArtistClick }) => (
   </div>
 );
 
+//Put your css below
+
 export default PopularArtists;
